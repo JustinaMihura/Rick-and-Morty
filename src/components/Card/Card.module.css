@@ -1,0 +1,23 @@
+.conten{
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgb(6, 180, 122);
+    width: fit-content;
+    margin: 10px;
+    justify-content: auto;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin : 30px
+}
+
+@media (max-width: 800px) {
+    .contenedor-hijo {
+      width: 100%; /* Cambia el ancho a 100% cuando el ancho de la ventana sea menor o igual a 800px */
+    }
+  }

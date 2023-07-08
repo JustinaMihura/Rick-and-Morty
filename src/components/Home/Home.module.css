@@ -1,0 +1,8 @@
+.home {
+    background-image: url("../../Imagenes/fondohome2.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+    position: relative;
+    padding: auto
+}

@@ -1,0 +1,16 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+   justify-content:space-between;
+    background-color: rgb(210, 206, 206);
+    align-items: center;
+   padding: auto
+
+};
+
+@media (max-width: 800px) {
+    .contenedor-hijo {
+      width: 100%; /* Cambia el ancho a 100% cuando el ancho de la ventana sea menor o igual a 800px */
+    }
+  }
